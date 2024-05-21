@@ -65,11 +65,11 @@ main {
 
 .slides {
     display: none;
-    width: 100%;
+    width: 90%;
 }
 
 .slideshow-container img {
-    width: 100%;
+    width: 90%;
 }
 
 .active {
@@ -81,7 +81,18 @@ main {
     align-items: start;
   }
 
-.logos {
-    width: 25%;
-    border-radius: 50%;
+.social-profiles {
+    margin-top: 1.5rem;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #c206cc; 
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-link:hover {
+    color: #ffffff; 
 }
