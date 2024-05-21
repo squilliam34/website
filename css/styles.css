@@ -29,7 +29,7 @@ body {
 }
 
 main {
-    padding-left: 5rem; 
+    padding-left: 7rem; 
     padding-top: 3rem; 
 }
 
@@ -52,5 +52,26 @@ h1 {
     display: inline-block;
     animation: wave 2s infinite;
     transform-origin: 70% 70%; 
+}
+
+.slideshow-container {
+    display: inline-block;
+    position: relative;
+    max-width: 400px;
+    margin-left: 13rem;
+    vertical-align: top;
+}
+
+.slides {
+    display: none;
+    width: 100%;
+}
+
+.slideshow-container img {
+    width: 100%;
+}
+
+.active {
+    display: block;
 }
 
