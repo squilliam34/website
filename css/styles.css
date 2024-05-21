@@ -96,3 +96,7 @@ main {
 .social-link:hover {
     color: #ffffff; 
 }
+
+.line-height {
+    line-height: 1.5rem;
+}
