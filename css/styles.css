@@ -33,10 +33,6 @@ main {
     padding-top: 3rem; 
 }
 
-h1 {
-    font-size: 2rem;
-}
-
 @keyframes wave {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(14deg); }
@@ -58,7 +54,8 @@ h1 {
     display: inline-block;
     position: relative;
     max-width: 400px;
-    margin-left: 13rem;
+    margin-left: 5rem;
+    margin-right: 7rem;
     vertical-align: top;
 }
 
@@ -74,4 +71,14 @@ h1 {
 .active {
     display: block;
 }
+
+.wrapper {
+    display: flex;  
+    justify-content: space-around;
+    
+    text-align: left; 
+    align-items: start;
+  }
+  
+  
 
