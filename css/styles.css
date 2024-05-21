@@ -1,5 +1,9 @@
+.flex {
+    display: flex;
+}
+
 header {
-    background-color: #1a1a1a;
+    background-color: #202020;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -73,12 +77,11 @@ main {
 }
 
 .wrapper {
-    display: flex;  
     justify-content: space-around;
-    
-    text-align: left; 
     align-items: start;
   }
-  
-  
 
+.logos {
+    width: 25%;
+    border-radius: 50%;
+}
