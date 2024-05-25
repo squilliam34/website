@@ -11,10 +11,10 @@ const App: React.FC = () => (
   <div>
     <Header />
     <main>
-      <div className="margin-bottom">
+      <div>
         <TennisBall />
       </div>
-      <div className="flex wrapper">
+      <div className="flex wrapper margin-bottom">
         <About />
         <Slideshow />
       </div>
