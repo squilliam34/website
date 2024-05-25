@@ -87,10 +87,18 @@ main {
     margin-top: 1.5rem;
 }
 
-.social-link {
+.github {
     display: inline-block;
     margin-right: 1rem;
-    color: #c206cc; 
+    color: #7307ae; 
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.linkedin {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #0894df; 
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -100,7 +108,7 @@ main {
 }
 
 .line-height {
-    line-height: 1.5rem;
+    line-height: 3rem;
 }
 
 .medium-font {
