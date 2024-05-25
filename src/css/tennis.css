@@ -1,0 +1,159 @@
+body{
+    padding:0;
+    background: #338fdf;
+}
+
+.flex{
+    display: flex;
+}
+
+.centered-words{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.red{
+    color: red;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-505, -50%);
+}
+
+.ball{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    background: #d7ff12;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) ;
+    overflow: hidden;
+    animation: bounce 5s ease-out forwards;
+}
+
+.ball:before,
+.ball:after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: transparent;
+    border: 5px solid #fff;
+    filter: blur(1px);
+    transform: rotate(90deg);
+}
+
+.ball:before {
+    top: 65%;
+}
+
+.ball:after {
+    top: -65%;
+}
+
+
+@keyframes bounce{
+    0% {
+        transform: translate(-50%, -50%) translateY(0) rotate(0deg);
+    }
+    10% {
+        transform: translate(-50%, -50%) translateY(-200px) rotate(36deg);
+    }
+    20% {
+        transform: translate(-50%, -50%) translateY(0) rotate(72deg);
+    }
+    30% {
+        transform: translate(-50%, -50%) translateY(-160px) rotate(108deg);
+    }
+    40% {
+        transform: translate(-50%, -50%) translateY(0px) rotate(144deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-120px) rotate(180deg);
+    }
+    60% {
+        transform: translate(-50%, -50%) translateY(0px) rotate(216deg);
+    }
+    70% {
+        transform: translate(-50%, -50%) translateY(-80px) rotate(252deg);
+    }
+    80% {
+        transform: translate(-50%, -50%) translateY(0px) rotate(288deg);
+    }
+    90% {
+        transform: translate(-50%, -50%) translateY(-40px) rotate(324deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0) rotate(360deg);
+    }
+}
+
+
+.shadow{
+    position: absolute;
+    width: 15rem;
+    height: 5rem;
+    transform: translate(-50%, 100%);
+    background: rgb(0, 0, 0, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blue(2px);
+    animation: shadow 5s ease-out forwards;
+}
+
+@keyframes shadow{
+    0%
+    {
+        transform: translate(-50%, 100%) scale(1);
+    }
+    10% 
+    {
+        transform: translate(-50%, 100%) scale(0.5);
+    }
+    20%
+    {
+        transform: translate(-50%, 100%) scale(1);
+    }
+    30% 
+    {
+        transform: translate(-50%, 100%) scale(0.5);
+    }
+    40% 
+    {
+        transform: translate(-50%, 100%) scale(1);
+    }
+    50%
+    {
+        transform: translate(-50%, 100%) scale(0.5);
+    }
+    60% 
+    {
+        transform: translate(-50%, 100%) scale(1);
+    }
+    70% 
+    {
+        transform: translate(-50%, 100%) scale(0.5);
+    }
+    80% 
+    {
+        transform: translate(-50%, 100%) scale(1);
+    }
+    90% 
+    {
+        transform: translate(-50%, 100%) scale(0.5);
+    }
+    100%
+    {
+        transform: translate(-50%, 100%) scale(1);
+    }
+}
