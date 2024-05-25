@@ -19,14 +19,14 @@ const About: React.FC = () => (
         <a
           href="https://github.com/squilliam34"
           target="_blank"
-          className="github"
+          className="icons"
         >
           <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/william-fan-376159265/"
           target="_blank"
-          className="linkedin"
+          className="icons"
         >
           <i className="fab fa-linkedin"></i>
         </a>

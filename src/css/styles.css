@@ -88,18 +88,10 @@ main {
     margin-top: 1.5rem;
 }
 
-.github {
+.icons {
     display: inline-block;
     margin-right: 1rem;
-    color: #7307ae; 
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-.linkedin {
-    display: inline-block;
-    margin-right: 1rem;
-    color: #df9b08; 
+    color: #d7ff12; 
     text-decoration: none;
     font-size: 1.5rem;
 }
