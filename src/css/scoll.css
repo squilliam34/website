@@ -1,0 +1,18 @@
+
+.about-button {
+    position: absolute;
+    top: calc(100vh - 8rem); 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+  }
