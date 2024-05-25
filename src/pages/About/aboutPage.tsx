@@ -8,9 +8,11 @@ import "../../css/styles.css";
 const App: React.FC = () => (
   <div>
     <Header />
-    <main className="flex wrapper">
-      <About />
-      <Slideshow />
+    <main>
+      <div className="flex wrapper">
+        <About />
+        <Slideshow />
+      </div>
     </main>
   </div>
 );
