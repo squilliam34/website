@@ -81,6 +81,7 @@ main {
 .wrapper {
     justify-content: space-around;
     align-items: start;
+    margin-top: 50rem;
   }
 
 .social-profiles {
@@ -113,4 +114,8 @@ main {
 
 .medium-font {
     font-size: 2rem;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
 }
