@@ -2,7 +2,7 @@ import React from "react";
 
 const About: React.FC = () => (
   <>
-    <div className="header">
+    <div id="about-me" className="header">
       <h1 className="medium-font">
         Hi there! My name is Will Fan <span className="waving-hand">👋</span>
       </h1>
@@ -15,7 +15,7 @@ const About: React.FC = () => (
         connect with me or look at other work of mine (or you can{" "}
         <a href="mailto:wdfan0128@gmail.com">email me here!</a>).
       </p>
-      <div className="flex social-profiles">
+      <div className="flex margin-top">
         <a
           href="https://github.com/squilliam34"
           target="_blank"
