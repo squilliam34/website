@@ -30,8 +30,8 @@ body{
 
 .ball{
     position: absolute;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     background: #d7ff12;
     border-radius: 50%;
     transform: translate(-50%,-50%) ;
@@ -101,8 +101,8 @@ body{
 
 .shadow{
     position: absolute;
-    width: 15rem;
-    height: 5rem;
+    width: 20rem;
+    height: 6.67rem;
     transform: translate(-50%, 100%);
     background: rgb(0, 0, 0, 0.2);
     border-radius: 50%;
