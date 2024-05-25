@@ -14,7 +14,7 @@ const About: React.FC = () => (
         experiences, projects, and a little of my personality, too. Feel free to
         take a look around! Below are my Github and LinkedIn if you want to
         connect with me or look at other work of mine (or you can{" "}
-        <a href="mailto:wdfan0128@gmail.com">email me here!</a>).
+        <a href="mailto:wdfan0128@gmail.com">email me here!</a>)
       </p>
       <div className="flex margin-top">
         <a
