@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #338fdf;
+    background-color: #4b9fe9;
     color: black;
     padding: 1rem 0;
     text-align: center;
@@ -26,7 +26,7 @@ nav ul li a {
 }
 
 body {
-    background-color: #338fdf; 
+    background-color: #4b9fe9; 
     color: black; 
     font-family: 'Bebas Neue', sans-serif; 
     margin: 0; 
@@ -91,7 +91,6 @@ main {
 .icons {
     display: inline-block;
     margin-right: 1rem;
-    color: #d7ff12; 
     text-decoration: none;
     font-size: 1.5rem;
 }

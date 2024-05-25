@@ -4,7 +4,8 @@ const About: React.FC = () => (
   <>
     <div id="about-me" className="header">
       <h1 className="medium-font">
-        Hi there! My name is Will Fan <span className="waving-hand">👋</span>
+        Hi there! My name is <span className="tennis-yellow">Will Fan </span>{" "}
+        <span className="waving-hand">👋</span>
       </h1>
       <p className="line-height">
         I'm currently a junior at the College of William and Mary, and I'm
@@ -19,14 +20,14 @@ const About: React.FC = () => (
         <a
           href="https://github.com/squilliam34"
           target="_blank"
-          className="icons"
+          className="icons red"
         >
           <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/william-fan-376159265/"
           target="_blank"
-          className="icons"
+          className="icons red"
         >
           <i className="fab fa-linkedin"></i>
         </a>
