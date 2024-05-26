@@ -1,5 +1,4 @@
 export { default as AboutMe } from "./AboutMe";
-export { default as NavBar } from "./NavBar";
 export { default as MoreAboutMe } from "./MoreAboutMe";
 export { default as ScrollButton } from "./ScrollButton";
 export { default as  Slideshow} from "./Slideshow";
