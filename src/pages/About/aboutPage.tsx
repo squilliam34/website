@@ -2,12 +2,12 @@
 import React from "react";
 import {
   AboutMe,
-  NavBar,
   MoreAboutMe,
   ScrollButton,
   Slideshow,
   TennisBall,
 } from "../../components/About";
+import NavBar from "../../components/About/Global/NavBar";
 import "../../css/styles.css";
 import "../../css/tennis.css";
 import "../../css/scroll.css";

@@ -13,20 +13,65 @@ header {
     width: 100%
 }
 
-nav ul {
+.list {
     list-style: none;
     padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-nav ul li {
-    display: inline;
+.inline {
     margin: 0 1rem;
 }
 
-nav ul li a {
+.color-size {
     color: white;
     text-decoration: none;
     font-size: 3rem;
+    position: relative; 
+}
+
+.active {
+    color: #d7ff12; 
+}
+
+.color-size:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    border-radius: 1px;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    color: #d7ff12;
+    background-color: #d7ff12;
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    border-radius: 1px;
+}
+
+.active:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    color: #d7ff12;
+    background-color: #d7ff12;
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    border-radius: 1px;
 }
 
 body {
