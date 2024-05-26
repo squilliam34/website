@@ -27,6 +27,7 @@ const Slideshow: React.FC = () => {
       <img src="images/pic1.jpg" className="slides active" alt="Picture 1" />
       <img src="images/pic2.jpg" className="slides" alt="Picture 2" />
       <img src="images/pic3.jpg" className="slides" alt="Picture 3" />
+      <img src="images/pic4.jpg" className="slides" alt="Picture 4" />
     </div>
   );
 };
