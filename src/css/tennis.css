@@ -21,6 +21,10 @@ body{
     color: red;
 }
 
+.black {
+    color: navy;
+}
+
 .center{
     position: absolute;
     top: 50%;
