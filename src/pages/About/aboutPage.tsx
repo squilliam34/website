@@ -2,7 +2,7 @@
 import React from "react";
 import {
   AboutMe,
-  Header,
+  NavBar,
   MoreAboutMe,
   ScrollButton,
   Slideshow,
@@ -14,7 +14,7 @@ import "../../css/scroll.css";
 
 const App: React.FC = () => (
   <div>
-    <Header />
+    <NavBar />
     <main>
       <div>
         <TennisBall />
