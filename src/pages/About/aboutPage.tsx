@@ -1,13 +1,16 @@
 // src/App.tsx
 import React from "react";
-import Header from "../../components/Header";
-import About from "../../components/About";
-import Slideshow from "../../components/Slideshow";
-import TennisBall from "../../components/TennisBall";
-import ScrollButton from "../../components/ScrollButton";
+import {
+  AboutMe,
+  Header,
+  MoreAboutMe,
+  ScrollButton,
+  Slideshow,
+  TennisBall,
+} from "../../components/About";
 import "../../css/styles.css";
 import "../../css/tennis.css";
-import "../../css/scoll.css";
+import "../../css/scroll.css";
 
 const App: React.FC = () => (
   <div>
@@ -20,7 +23,7 @@ const App: React.FC = () => (
         </div>
       </div>
       <div className="flex wrapper margin-bottom">
-        <About />
+        <AboutMe />
         <Slideshow />
       </div>
     </main>
