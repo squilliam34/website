@@ -1,20 +1,16 @@
-// src/App.tsx
 import React from "react";
 import {
   AboutMe,
-  MoreAboutMe,
   ScrollButton,
   Slideshow,
   TennisBall,
 } from "../../components/About";
-import NavBar from "../../components/About/Global/NavBar";
 import "../../css/styles.css";
 import "../../css/tennis.css";
 import "../../css/scroll.css";
 
-const App: React.FC = () => (
+const AboutPage: React.FC = () => (
   <div>
-    <NavBar />
     <main>
       <div>
         <TennisBall />
@@ -30,4 +26,4 @@ const App: React.FC = () => (
   </div>
 );
 
-export default App;
+export default AboutPage;
