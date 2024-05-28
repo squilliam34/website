@@ -4,7 +4,7 @@ import { FiChevronsDown } from "react-icons/fi";
 const ScrollButton: React.FC = () => {
   return (
     <div className="flex center-align column">
-      <ScrollLink to="about-me" smooth={true} duration={500} offset={-50}>
+      <ScrollLink to="about-me" smooth={true} duration={500} offset={-300}>
         About Me
       </ScrollLink>
       <FiChevronsDown size={20} className="text-gray-600" />
