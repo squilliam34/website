@@ -1,7 +1,7 @@
 import React from "react";
 
-const AboutMe: React.FC = () => (
-  <>
+const AboutMe: React.FC = () => {
+  return (
     <div id="about-me" className="header">
       <h1 className="medium-font">
         Hi there! My name is <span className="tennis-yellow">Will Fan </span>{" "}
@@ -33,7 +33,6 @@ const AboutMe: React.FC = () => (
         </a>
       </div>
     </div>
-  </>
-);
-
+  );
+};
 export default AboutMe;
