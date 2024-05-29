@@ -4,26 +4,35 @@ import {
   ScrollButton,
   Slideshow,
   TennisBall,
+  MoreAboutMe,
+  TechnicalSkills,
 } from "../../components/About";
 import "../../css/styles.css";
 import "../../css/tennis.css";
 import "../../css/scroll.css";
+import "../../css/skills.css";
 
-const AboutPage: React.FC = () => (
-  <div>
-    <main>
-      <div>
-        <TennisBall />
-        <div className="about-button">
-          <ScrollButton />
+const AboutPage: React.FC = () => {
+  return (
+    <div>
+      <main>
+        <div>
+          <TennisBall />
+          <div className="about-button">
+            <ScrollButton />
+          </div>
         </div>
-      </div>
-      <div className="flex wrapper margin-bottom">
-        <AboutMe />
-        <Slideshow />
-      </div>
-    </main>
-  </div>
-);
+        <div className="flex wrapper margin-bottom large-margin-top">
+          <AboutMe />
+          <Slideshow />
+        </div>
+        <div className="flex wrapper margin-bottom">
+          <TechnicalSkills />
+          <MoreAboutMe />
+        </div>
+      </main>
+    </div>
+  );
+};
 
 export default AboutPage;
