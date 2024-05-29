@@ -1,53 +1,42 @@
 import React from "react";
+import SkillItem from "./SkillItem";
+
+const skills1 = [
+  { name: "C++", imageSrc: "images/cpp.png" },
+  { name: "CSS", imageSrc: "images/css.png" },
+  { name: "Git", imageSrc: "images/git.png" },
+];
+
+const skills2 = [
+  { name: "HTML", imageSrc: "images/html.png" },
+  { name: "Java", imageSrc: "images/java.png" },
+  { name: "Javascript", imageSrc: "images/javascript.png" },
+  { name: "Node.js", imageSrc: "images/nodejs.png" },
+];
+
+const skills3 = [
+  { name: "Python", imageSrc: "images/python.png" },
+  { name: "React", imageSrc: "images/react.png" },
+  { name: "Typescript", imageSrc: "images/typescript.png" },
+];
 
 const TechnicalSkills: React.FC = () => {
   return (
     <div className="flex skills">
       <div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/cpp.png" alt="cpp" />
-          <p>C++</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/css.png" alt="css" />
-          <p>CSS</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/git.png" alt="git" />
-          <p>Git</p>
-        </div>
+        {skills1.map((skill, index) => (
+          <SkillItem key={index} name={skill.name} imageSrc={skill.imageSrc} />
+        ))}
       </div>
       <div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/html.png" alt="html" />
-          <p>HTML</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/java.png" alt="java" />
-          <p>Java</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/nodejs.png" alt="node.js" />
-          <p>Node.js</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/javascript.png" alt="javascript" />
-          <p>Javascript</p>
-        </div>
+        {skills2.map((skill, index) => (
+          <SkillItem key={index} name={skill.name} imageSrc={skill.imageSrc} />
+        ))}
       </div>
       <div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/python.png" alt="python" />
-          <p>Python</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/react.png" alt="react" />
-          <p>React</p>
-        </div>
-        <div className="flex column center-align skills-item small-margin-bottom">
-          <img src="images/typescript.png" alt="typescript" />
-          <p>Typescript</p>
-        </div>
+        {skills3.map((skill, index) => (
+          <SkillItem key={index} name={skill.name} imageSrc={skill.imageSrc} />
+        ))}
       </div>
     </div>
   );
