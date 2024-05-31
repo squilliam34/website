@@ -14,7 +14,7 @@ const info2 = {
   header2: "programming",
   emoji: "",
   paragraph:
-    "I also enjoy learning about finance and economics and am interested in exploring the intersection of programming and those disciplines! On campus, I am involved in William and Mary's Finance Academy, Club Tennis, Association of Computing Machinery, and the Sigma Chi fraternity, where I serve on the executive board. When I'm not in front of my laptop, I enjoy reading, being active, and cooking.",
+    "I also enjoy learning about finance and economics, and I am interested in exploring the intersection of programming and those disciplines! On campus, I am involved in William and Mary's Finance Academy, Club Tennis, Association of Computing Machinery, and the Sigma Chi fraternity, where I serve on the executive board. When I'm not in front of my laptop, I enjoy reading, being active, and cooking.",
 };
 
 const MoreAboutMe: React.FC = () => {
