@@ -136,6 +136,10 @@ main {
     margin-top: 50rem;
 }
 
+.medium-margin-top {
+    margin-top: 5rem;
+}
+
 .margin-top {
     margin-top: 1.5rem;
 }
