@@ -1,0 +1,16 @@
+.photo {
+    border-radius: 15px;
+    height:300px;
+    width:240px;
+}
+
+.profile {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    margin-left: 18rem;
+    justify-content: space-around;
+    align-items: start;
+}

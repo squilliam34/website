@@ -186,3 +186,7 @@ main {
 .small-margin-bottom {
     margin-bottom: 1rem;
 }
+
+.align-start {
+    align-items: start;
+}
