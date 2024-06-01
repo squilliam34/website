@@ -14,3 +14,34 @@
     height: 100px;
     width: 100px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 160px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: navy;
+    border-bottom: 1px solid #f1f1f1;
+    cursor: pointer;
+  }
+
+  .link {
+    color: #d7ff12;
+    cursor: pointer;
+  }
