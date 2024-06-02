@@ -4,13 +4,14 @@ import "../../css/tennis.css";
 import "../../css/scroll.css";
 import "../../css/sidebar.css";
 
-import { Sidebar } from "../../components/Resume";
+import { Sidebar, Experiences } from "../../components/Resume";
 
 const ResumePage: React.FC = () => (
   <div>
     <main>
       <div>
         <Sidebar />
+        <Experiences />
       </div>
     </main>
   </div>
