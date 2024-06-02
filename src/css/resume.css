@@ -1,0 +1,31 @@
+.timeline {
+    color: navy;
+    font-size: 2rem;
+}
+
+.position {
+    color: navy;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.company {
+    color: #d7ff12;
+    margin-left: 2.7rem;
+    font-size: 2rem;
+}
+
+.dropdown-icon {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box {
+    width: 65rem;
+    height: 250rem;
+}
+
+.resume-line {
+    width: 100%;
+    justify-content: space-between;
+}
