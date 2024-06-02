@@ -190,3 +190,7 @@ main {
 .align-start {
     align-items: start;
 }
+
+.pointer {
+    cursor: pointer;
+}
