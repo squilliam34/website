@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-scroll";
 import { IoIosMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa";
 
@@ -8,13 +8,6 @@ const Sidebar: React.FC = () => {
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
-  };
-
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
   };
 
   return (
@@ -40,33 +33,37 @@ const Sidebar: React.FC = () => {
       {isOpen && (
         <div className="dropdown_menu">
           <li className="dropdown-item">
-            <a href="#webster">Private Banking Analyst @ Webster Bank</a>
+            <Link to="webster" smooth="true" duration={500}>
+              Private Banking Analyst @ Webster Bank
+            </Link>
           </li>
           <li className="dropdown-item">
-            <a href="#dominguez">Office Intern @ Dominguez Wealth Management</a>
+            <Link to="dominguez" smooth="true" duration={500}>
+              Office Intern @ Dominguez Wealth Management
+            </Link>
           </li>
           <li className="dropdown-item">
-            <a href="#spc">
+            <Link to="spc" smooth="true" duration={500}>
               Python Developer Intern @ Second Pillar Consulting
-            </a>
+            </Link>
           </li>
           <li className="dropdown-item">
-            <a href="#mntc">
-              Teaching Assistant & Front Desk Attendant @ McCormack-Nagelsen
+            <Link to="mntc" smooth="true" duration={500}>
+              Front Desk Attendant & Teaching Assistant @ McCormack-Nagelsen
               Tennis Center
-            </a>
+            </Link>
           </li>
         </div>
       )}
-      <div className="link" onClick={() => scrollToSection("education")}>
+      <Link to="education" smooth="true" duration={500} className="link">
         Education
-      </div>
-      <div className="link" onClick={() => scrollToSection("leadership")}>
+      </Link>
+      <Link to="leadership" smooth="true" duration={500} className="link">
         Leadership Experience
-      </div>
-      <div className="link" onClick={() => scrollToSection("technical")}>
+      </Link>
+      <Link to="technical" smooth="true" duration={500} className="link">
         Technical Skills
-      </div>
+      </Link>
     </div>
   );
 };
