@@ -5,9 +5,11 @@ const ScrollButton: React.FC = () => {
   return (
     <div className="flex center-align column">
       <ScrollLink to="about-me" smooth={true} duration={500} offset={-300}>
-        About Me
+        <div className="flex center-align column">
+          <div>About Me</div>
+          <FiChevronsDown size={20} className="text-gray-600" />
+        </div>
       </ScrollLink>
-      <FiChevronsDown size={20} className="text-gray-600" />
     </div>
   );
 };
