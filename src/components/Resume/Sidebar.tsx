@@ -10,6 +10,10 @@ const Sidebar: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
+  const openPDF = () => {
+    window.open("files/Will Fan Resume.pdf", "_blank");
+  };
+
   return (
     <div className="flex column sidebar">
       <img src="images/profile.jpg" className="photo margin-top" />
@@ -23,7 +27,9 @@ const Sidebar: React.FC = () => {
           <FaPhone /> (757) 775-3185
         </div>
       </div>
-
+      <div onClick={openPDF} className="margin-top pointer">
+        Download My Resume
+      </div>
       <div
         onClick={toggleDropdown}
         className="margin-top tennis-yellow dropdown"
