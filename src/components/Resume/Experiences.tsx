@@ -8,7 +8,7 @@ const Experiences: React.FC = () => {
       <div className="flex column box">
         <div id="webster">
           <ResumeItem
-            position="Private Banking Analyst"
+            position="Private Banking Analyst Intern"
             timeline="June 2024 - August 2024"
             company="Webster Bank"
             description="blah"

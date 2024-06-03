@@ -34,7 +34,7 @@ const Sidebar: React.FC = () => {
         <div className="dropdown_menu">
           <li className="dropdown-item">
             <Link to="webster" smooth="true" duration={500} offset={-150}>
-              Private Banking Analyst @ Webster Bank
+              Private Banking Analyst Intern @ Webster Bank
             </Link>
           </li>
           <li className="dropdown-item">
