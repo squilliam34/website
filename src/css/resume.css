@@ -11,7 +11,7 @@
 
 .company {
     color: #d7ff12;
-    margin-left: 2.7rem;
+    margin-left: 2.73rem;
     font-size: 2rem;
 }
 
@@ -28,4 +28,15 @@
 .resume-line {
     width: 100%;
     justify-content: space-between;
+}
+
+.description {
+    font-size: 1.25rem;
+    margin-left: 2.73rem;
+}
+
+.border {
+    border-style: solid none none none;
+    width: 100%;
+    color: white;
 }
