@@ -30,6 +30,14 @@ const Experiences: React.FC = () => {
             description="Collaborated in the development of climate change forecasts for financial institutions to conduct stress testing - Wrote Python and Scala modules to implement technical indicators and metrics as described in published research, ensured code was optimized for processing 30+ TBs of climate data, used Sphinx module to write documentation to enhance code readability and usability, implemented unit tests to ensure code is accurate"
           />
         </div>
+        <div id="mntc" className="border">
+          <ResumeItem
+            position="Teaching Assistant & Front Desk Attendant"
+            timeline="June 2022 - Present"
+            company="McCormack-Nagelsen Tennis Center"
+            description="Develop tailored lesson plans and collaborate with fellow teaching pros to instruct students across a broad range of skill sets and ages. Verify transactions, process payments, and update member information to ensure accuracy in the center’s financial reporting and information databases"
+          />
+        </div>
       </div>
     </div>
   );
