@@ -55,13 +55,31 @@ const Sidebar: React.FC = () => {
           </li>
         </div>
       )}
-      <Link to="education" smooth="true" duration={500} className="link">
+      <Link
+        to="education"
+        smooth="true"
+        duration={500}
+        offset={-150}
+        className="link"
+      >
         Education
       </Link>
-      <Link to="leadership" smooth="true" duration={500} className="link">
+      <Link
+        to="leadership"
+        smooth="true"
+        duration={500}
+        offset={-150}
+        className="link"
+      >
         Leadership Experience
       </Link>
-      <Link to="technical" smooth="true" duration={500} className="link">
+      <Link
+        to="technical"
+        smooth="true"
+        duration={500}
+        offset={-150}
+        className="link"
+      >
         Technical Skills
       </Link>
     </div>
