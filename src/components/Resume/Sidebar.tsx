@@ -33,22 +33,22 @@ const Sidebar: React.FC = () => {
       {isOpen && (
         <div className="dropdown_menu">
           <li className="dropdown-item">
-            <Link to="webster" smooth="true" duration={500}>
+            <Link to="webster" smooth="true" duration={500} offset={-150}>
               Private Banking Analyst @ Webster Bank
             </Link>
           </li>
           <li className="dropdown-item">
-            <Link to="dominguez" smooth="true" duration={500}>
+            <Link to="dominguez" smooth="true" duration={500} offset={-150}>
               Office Intern @ Dominguez Wealth Management
             </Link>
           </li>
           <li className="dropdown-item">
-            <Link to="spc" smooth="true" duration={500}>
+            <Link to="spc" smooth="true" duration={500} offset={-150}>
               Python Developer Intern @ Second Pillar Consulting
             </Link>
           </li>
           <li className="dropdown-item">
-            <Link to="mntc" smooth="true" duration={500}>
+            <Link to="mntc" smooth="true" duration={500} offset={-150}>
               Front Desk Attendant & Teaching Assistant @ McCormack-Nagelsen
               Tennis Center
             </Link>
