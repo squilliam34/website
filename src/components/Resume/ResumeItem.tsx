@@ -31,7 +31,7 @@ const ResumeItem: React.FC<ResumeProps> = ({
         </div>
       </div>
       <div className="company">{company}</div>
-      {isOpen && <div>{description}</div>}
+      {isOpen && <div className="description">{description}</div>}
     </div>
   );
 };
