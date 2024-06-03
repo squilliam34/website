@@ -4,7 +4,7 @@ import ResumeItem from "./ResumeItem";
 const Experiences: React.FC = () => {
   return (
     <div className="medium-margin-top">
-      <h1>Work Experiences</h1>
+      <h1>Work Experience</h1>
       <div className="flex column box">
         <div id="webster">
           <ResumeItem
@@ -39,6 +39,7 @@ const Experiences: React.FC = () => {
           />
         </div>
       </div>
+      <h1 id="education">Education</h1>
     </div>
   );
 };
