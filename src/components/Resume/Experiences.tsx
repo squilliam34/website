@@ -3,7 +3,7 @@ import ResumeItem from "./ResumeItem";
 
 const Experiences: React.FC = () => {
   return (
-    <div className="medium-margin-top">
+    <div className="medium-margin-top margin-bottom">
       <h1>Work Experience</h1>
       <div className="flex column box">
         <div id="webster">
@@ -40,6 +40,22 @@ const Experiences: React.FC = () => {
         </div>
       </div>
       <h1 id="education">Education</h1>
+      <div className="flex column box">
+        <div>
+          <ResumeItem
+            position="B.S. in Computer Science and Applied Math"
+            timeline="August 2022 - May 2026"
+            company="The College of William & Mary"
+            description="I am pursing a Bachelor of Science, major in Computer Science/Applied Math
+            
+            Honors: Dean's List (Spring 2023)
+            
+            Relevant Coursework: Multivariable Calculus, Linear Algebra, Data Structures, Algorithms, Software Development, Foundations of Math, Business Statistics, Principles of Accounting, Probability and Statistics for Scientists, Intro to Data Science
+            
+            Activities and Societies: Association of Computing Machinery, Club Tennis, Finance Academy, Sigma Chi Fraternity (Zeta Upsilon Chapter)"
+          />
+        </div>
+      </div>
     </div>
   );
 };
