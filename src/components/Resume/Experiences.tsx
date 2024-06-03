@@ -49,20 +49,32 @@ const Experiences: React.FC = () => {
       </div>
       <h1 id="education">Education</h1>
       <div className="flex column box">
-        <div>
-          <ResumeItem
-            position="B.S. in Computer Science and Applied Math"
-            timeline="August 2022 - May 2026"
-            company="The College of William & Mary"
-            description="I am pursing a Bachelor of Science, major in Computer Science/Applied Math
+        <ResumeItem
+          position="B.S. in Computer Science and Applied Math"
+          timeline="August 2022 - May 2026"
+          company="The College of William & Mary"
+          description="I am pursing a Bachelor of Science, major in Computer Science/Applied Math
             
             Honors and Awards: Dean's List (Spring 2023), Best Finance Hack Runner-Up at TribeHacks IX
             
             Relevant Coursework: Multivariable Calculus, Linear Algebra, Data Structures, Algorithms, Software Development, Foundations of Math, Business Statistics, Principles of Accounting, Probability and Statistics for Scientists, Intro to Data Science
             
             Activities and Societies: Association of Computing Machinery, Club Tennis, Finance Academy, Sigma Chi Fraternity (Zeta Upsilon Chapter)"
-          />
-        </div>
+        />
+      </div>
+      <h1 id="leadership">Leadership Experience</h1>
+      <div className="flex column box">
+        <ResumeItem
+          position="Magister"
+          timeline="January 2024 - Present"
+          company="Sigma Chi Fraternity"
+          description="Implement Sigma Chi’s accredited hybrid new member education program:
+        - Plan weekly meetings to present on fraternity and chapter history and ritual
+        - Encourage values-based decision making to new members through weekly activities and discussions
+        - Act as a mentor for new members by providing guidance in balancing schoolwork and other
+        responsibilities
+        Lead conflict resolution between new members as a mediator for disputes"
+        />
       </div>
     </div>
   );
