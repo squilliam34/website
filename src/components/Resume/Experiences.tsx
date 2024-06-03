@@ -76,6 +76,7 @@ const Experiences: React.FC = () => {
         Lead conflict resolution between new members as a mediator for disputes"
         />
       </div>
+      <h1 id="technical">Technical Skills</h1>
     </div>
   );
 };
