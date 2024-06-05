@@ -40,3 +40,21 @@
     width: 100%;
     color: white;
 }
+
+.technical-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    width: 65rem;
+}
+
+.experience{
+    font-size: 1.25rem;
+    flex: 0 1 auto;
+    padding: 10px;
+    color: navy;
+    border: 3px solid #d7ff12;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap; 
+}
