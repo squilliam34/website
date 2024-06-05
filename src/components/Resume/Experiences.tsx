@@ -17,8 +17,6 @@ const skills = [
   "Algorithms",
   "Financial Analysis",
   "Object Oriented Programming",
-  "Time Management",
-  "Communication",
   "Software Development",
   "Web Development",
 ];
