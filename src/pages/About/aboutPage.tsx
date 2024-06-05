@@ -7,10 +7,6 @@ import {
   MoreAboutMe,
   TechnicalSkills,
 } from "../../components/About";
-import "../../css/styles.css";
-import "../../css/tennis.css";
-import "../../css/scroll.css";
-import "../../css/skills.css";
 
 const AboutPage: React.FC = () => {
   return (

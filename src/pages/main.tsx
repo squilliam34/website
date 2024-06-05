@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../css/scroll.css";
 import "../css/styles.css";
 import "../css/tennis.css";
+import "../css/scroll.css";
+import "../css/sidebar.css";
+import "../css/resume.css";
+import "../css/footer.css";
 import App from "./App";
 import { BrowserRouter as Router } from "react-router-dom";
 
