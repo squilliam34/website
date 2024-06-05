@@ -24,7 +24,7 @@ const skills = [
 const Experiences: React.FC = () => {
   return (
     <div className="medium-margin-top margin-bottom">
-      <h1>Work Experience</h1>
+      <h1 id="header">Work Experience</h1>
       <div className="flex column box">
         <div id="webster">
           <ResumeItem

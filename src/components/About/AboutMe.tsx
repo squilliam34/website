@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe: React.FC = () => {
   return (
     <div id="about-me" className="header">
-      <h1 className="medium-font">
+      <h1 id="header" className="medium-font">
         Hi there! My name is <span className="tennis-yellow">Will Fan </span>{" "}
         <span className="waving-hand">👋</span>
       </h1>
