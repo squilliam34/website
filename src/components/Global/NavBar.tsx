@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar: React.FC = () => {
   return (
-    <header id="header">
+    <header>
       <nav>
         <ul className="list">
           <li className="inline">
