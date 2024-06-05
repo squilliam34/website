@@ -7,14 +7,13 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-content">
         <div>
-          <Link to="header" smooth={true} duration={500}>
-            <div className="flex column">
-              <FiChevronsUp />
+          <Link to="header" smooth={true} duration={500} offset={-300}>
+            <div className="chevrons">
               <FiChevronsUp />
             </div>
           </Link>
         </div>
-        <div>&copy; {new Date().getFullYear()} Will Fan</div>
+        <div>&copy; Will Fan</div>
       </div>
     </footer>
   );
