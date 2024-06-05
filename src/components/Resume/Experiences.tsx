@@ -1,6 +1,28 @@
 import React from "react";
 import ResumeItem from "./ResumeItem";
 
+const skills = [
+  "Microsoft Office",
+  "Python",
+  "Java",
+  "C++",
+  "R",
+  "Javascript",
+  "React",
+  "Typescript",
+  "HTML",
+  "CSS",
+  "Node.Js",
+  "Data Structures",
+  "Algorithms",
+  "Financial Analysis",
+  "Object Oriented Programming",
+  "Time Management",
+  "Communication",
+  "Software Development",
+  "Web Development",
+];
+
 const Experiences: React.FC = () => {
   return (
     <div className="medium-margin-top margin-bottom">
@@ -77,6 +99,13 @@ const Experiences: React.FC = () => {
         />
       </div>
       <h1 id="technical">Technical Skills</h1>
+      <div className="technical-container">
+        {skills.map((skill, index) => (
+          <div key={index} className="experience">
+            {skill}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
