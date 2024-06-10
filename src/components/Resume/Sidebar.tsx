@@ -62,15 +62,6 @@ const Sidebar: React.FC = () => {
         </div>
       )}
       <Link
-        to="education"
-        smooth="true"
-        duration={500}
-        offset={-150}
-        className="link"
-      >
-        Education
-      </Link>
-      <Link
         to="leadership"
         smooth="true"
         duration={500}
