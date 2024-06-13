@@ -16,7 +16,7 @@ const skills = [
   "Node.Js",
   "Data Structures",
   "Algorithms",
-  "Financial Analysis",
+  "Investment Analysis",
   "Object Oriented Programming",
   "Software Development",
   "Web Development",
