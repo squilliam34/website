@@ -11,7 +11,9 @@ const WorkExperiences: React.FC = () => {
             position="Private Banking Analyst Intern"
             timeline="June 2024 - August 2024"
             company="Webster Bank"
-            description="blah"
+            description="- Analyzed the macro economy to aid in strategic asset allocation for clients
+            - Conducted portfolio analysis for portfolio managers to determine deviation from models and the S&P 500
+            - Performed esearch on individual equities based on clients' needs for income and appetite for risk for the portfolio managers"
           />
         </div>
         <div id="dominguez" className="border">
@@ -51,4 +53,4 @@ const WorkExperiences: React.FC = () => {
   );
 };
 
-export default WorkExperiences
+export default WorkExperiences;
