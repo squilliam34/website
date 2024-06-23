@@ -13,7 +13,7 @@ const WorkExperiences: React.FC = () => {
             company="Webster Bank"
             description="- Analyzed the macro economy to aid in strategic asset allocation for clients
             - Conducted portfolio analysis for portfolio managers to determine deviation from models and the S&P 500
-            - Performed esearch on individual equities based on clients' needs for income and appetite for risk for the portfolio managers"
+            - Performed research on individual equities based on clients' needs for income and appetite for risk for the portfolio managers"
           />
         </div>
         <div id="dominguez" className="border">
