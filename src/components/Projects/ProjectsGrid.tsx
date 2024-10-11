@@ -38,7 +38,7 @@ const projects: Project[] = [
 
 const ProjectsGrid: React.FC = () => {
   return (
-    <div className="projects-grid">
+    <div id="header" className="projects-grid">
       {projects.map((project) => (
         <a
           key={project.id}

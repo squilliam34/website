@@ -8,7 +8,7 @@ const WorkExperiences: React.FC = () => {
       <div className="flex column box">
         <div id="webster">
           <ResumeItem
-            position="Private Banking Analyst Intern"
+            position="Private Banking Summer Analyst"
             timeline="June 2024 - August 2024"
             company="Webster Bank"
             description="- Assessed macroeconomic trends to inform strategic asset allocation, optimizing portfolios according to clients' long-term financial goals and risk profiles
