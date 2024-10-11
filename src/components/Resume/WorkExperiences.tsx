@@ -11,20 +11,19 @@ const WorkExperiences: React.FC = () => {
             position="Private Banking Analyst Intern"
             timeline="June 2024 - August 2024"
             company="Webster Bank"
-            description="- Analyzed the macro economy to aid in strategic asset allocation for clients
+            description="- Assessed macroeconomic trends to inform strategic asset allocation, optimizing portfolios according to clients' long-term financial goals and risk profiles
             - Conducted portfolio analysis for portfolio managers to determine deviation from models and the S&P 500
-            - Performed research on individual equities based on clients' needs for income and appetite for risk for the portfolio managers"
+            - Performed in-depth research on securities and tailored recommendations based on client-specific requirements for income generation and appetite for risk"
           />
         </div>
         <div id="dominguez" className="border">
           <ResumeItem
-            position="Office Intern"
+            position="Wealth Management Intern"
             timeline="June 2023 - August 2023"
             company="Dominguez Wealth Management"
-            description="Participated in and contributed to the daily operations of the firm: 
-            - Attended meetings to discuss clients’ desired risk in their portfolio and determine their account distribution as well as aided fixed income calculations by calculating social security in Excel
-            - Engaged with wholesalers and took notes on their various ETFs and their composition
-            - Implemented a system to organize notes for hundreds of clients’ meetings, calls, reviews, and plans"
+            description="- Participated in client meetings to assess risk tolerance and determine portfolio allocation
+            - Aided in fixed income strategies by calculating Social Security projections in Excel
+            - Engaged with wholesalers and gathered insights on various ETF’s and their composition, which helped to inform investment decisions and client recommendations"
           />
         </div>
         <div id="spc" className="border">
@@ -32,11 +31,9 @@ const WorkExperiences: React.FC = () => {
             position="Python Developer Intern"
             timeline="May 2023 - August 2023"
             company="Second Pillar Consulting"
-            description="Collaborated in the development of climate change forecasts for financial institutions to conduct stress testing:
-            - Wrote Python and Scala modules to implement technical indicators and metrics as described in published research
-            - Ensured code was optimized for processing 30+ TBs of climate data
-            - Used Sphinx module to write documentation to enhance code readability and usability
-            - Implemented unit tests to ensure code is accurate"
+            description="- Wrote Python and Scala modules to implement technical indicators and metrics as described in published research to aid in the development of climate change forecasts for financial institutions to conduct stress testing
+            - Ensured code was optimized for processing 30+ TBs of climate data and implemented unit tests to ensure code is accurate
+            - Used Sphinx module to write documentation to enhance code readability and usability"
           />
         </div>
         <div id="mntc" className="border">

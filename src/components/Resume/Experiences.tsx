@@ -30,14 +30,11 @@ const Experiences: React.FC = () => {
       <div className="flex column box">
         <ResumeItem
           position="Magister"
-          timeline="January 2024 - Present"
+          timeline="December 2023 - December 2024"
           company="Sigma Chi Fraternity"
-          description="Implement Sigma Chi’s accredited hybrid new member education program:
-        - Plan weekly meetings to present on fraternity and chapter history and ritual
-        - Encourage values-based decision making to new members through weekly activities and discussions
-        - Act as a mentor for new members by providing guidance in balancing schoolwork and other
-        responsibilities
-        Lead conflict resolution between new members as a mediator for disputes"
+          description="- Implemented Sigma Chi’s accredited hybrid new member education program
+          - Directed weekly meetings, planned activities for new members, and led discussions to encourage values-based decision making
+          - Mentored new members and provided guidance on balancing schoolwork and other responsibilities"
         />
       </div>
       <h1 id="technical">Technical Skills</h1>
