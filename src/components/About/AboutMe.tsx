@@ -10,10 +10,10 @@ const AboutMe: React.FC = () => {
       <p className="line-height">
         I'm currently a junior at the College of William and Mary, and I'm
         pursuing a Bachelor of Science with a double major in Computer Science
-        and Applied Mathematics. I built this website to showcase my
-        experiences, projects, and a little bit of my personality, too. Feel
-        free to take a look around! Below are my Github and LinkedIn if you want
-        to connect with me or look at other work of mine (or you can{" "}
+        and Economics. I built this website to showcase my experiences,
+        projects, and a little bit of my personality, too. Feel free to take a
+        look around! Below are my Github and LinkedIn if you want to connect
+        with me or look at other work of mine (or you can{" "}
         <a href="mailto:wdfan0128@gmail.com">email me here!</a>)
       </p>
       <div className="flex margin-top">
