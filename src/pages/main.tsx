@@ -5,8 +5,9 @@ import "../css/tennis.css";
 import "../css/scroll.css";
 import "../css/sidebar.css";
 import "../css/resume.css";
-import "../css/skills.css"
+import "../css/skills.css";
 import "../css/footer.css";
+import "../css/projects.css";
 import App from "./App";
 import { BrowserRouter as Router } from "react-router-dom";
 
