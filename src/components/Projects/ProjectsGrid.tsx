@@ -19,6 +19,13 @@ const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Intro to Machine Learning Final Project",
+    image: "/images/ml.png",
+    description: "A final project for my intro to machine learning class. I trained various models (neural networks, linear regression, AdaBoost) to predict the price of a house given certain features",
+    github: "https://github.com/squilliam34/CS416-Final-Project/tree/main",
+  },
+  {
+    id: 3,
     title: "Hackathon Project",
     image: "/images/tribehacks.png",
     description:
@@ -26,7 +33,7 @@ const projects: Project[] = [
     github: "https://github.com/squilliam34/TribeHacks-2024-Project",
   },
   {
-    id: 3,
+    id: 4,
     title: "GUI Connect 4 Game",
     image: "/images/gameplay.png",
     description:
